@@ -8,7 +8,7 @@ export class Projects extends Component {
           <h4>
             <a href='http://www.popnspots.com' target='_blank' rel='noopener noreferrer'>Pop N Spots
             </a></h4>
-          <p> Website built to find out the current busyness of a certain place</p>
+          <p> Webapp built to quickly view the current busyness of nearby places </p>
           <br />
 
           <h4>

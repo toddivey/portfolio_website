@@ -55,6 +55,7 @@
 }
 
 #p1-text {
+  align-items: right;
   padding-top: 10%;
   display: flex;
   justify-content: left;

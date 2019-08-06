@@ -22,7 +22,7 @@ export class About extends Component {
 
        <br/>
 
-       <p>When I'm not busy coding, you can find me hanging out with his girlfriend Anna, along with our two pets Bruce and Penny. I enjoy staying active with playing sports in the summer and skiing in the winter. I also love trying new restaurants, cooking, am an avid record collector, and enjoys a good bourbon or craft beer at the end of the day. </p>
+       <p>When I'm not busy coding, you can find me hanging out with my girlfriend Anna, along with our two pets Bruce and Penny. I enjoy staying active with playing sports in the summer and skiing in the winter. I also love trying new restaurants, cooking, I am an avid <a href="https://www.discogs.com/user/tji27/collection?sort_by=artists_sort" target='_blank' rel='noropener noreferrer'>record collector</a>, and enjoy a good bourbon or craft beer at the end of the day. </p>
         <br/>
       </div>
     )

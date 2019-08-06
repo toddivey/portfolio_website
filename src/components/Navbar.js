@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { stack as Menu } from 'react-burger-menu'
 
 export class Navbar extends Component {

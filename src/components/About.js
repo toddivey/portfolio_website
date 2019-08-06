@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import Header from './Header'
 export class About extends Component {
 
   render() {
     return (
       <div className='App-about'>
         <div id='p1'>
-        <img src="images/me.jpg" style={{width: '30%', padding:'2%'}} />
+        <img src="images/me.jpg" style={{width: '30%', padding:'2%'}} alt="Profile"/>
         <p id='p1-text'>
         I am a Software Engineer based in Chicago, IL. I graduated from Middle Tennessee State University with a B.S. in Aerospace Administration. From there my career started with working in airport operations at Greenville-Spartanburg International Airport and then Chicago-Midway International Airport but I always had an itch to learn how to code and regretted not learning how to while in college.
         </p>
@@ -22,7 +21,7 @@ export class About extends Component {
 
        <br/>
 
-       <p>When I'm not busy coding, you can find me hanging out with my girlfriend Anna, along with our two pets Bruce and Penny. I enjoy staying active with playing sports in the summer and skiing in the winter. I also love trying new restaurants, cooking, I am an avid <a href="https://www.discogs.com/user/tji27/collection?sort_by=artists_sort" target='_blank' rel='noropener noreferrer'>record collector</a>, and enjoy a good bourbon or craft beer at the end of the day. </p>
+       <p>When I'm not busy coding, you can find me hanging out with my girlfriend Anna, along with our two pets Bruce and Penny. I enjoy staying active with playing sports in the summer and skiing in the winter. I also love trying new restaurants, cooking, I am an avid <a href="https://www.discogs.com/user/tji27/collection?sort_by=artists_sort" target="_blank" rel="noopener noreferrer">record collector</a>, and enjoy a good bourbon or craft beer at the end of the day. </p>
         <br/>
       </div>
     )

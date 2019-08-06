@@ -4,7 +4,7 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <img src='/logo.png' />
+        <img src='/logo.png' alt="my logo" />
       </div>
     )
   }

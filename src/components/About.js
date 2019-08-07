@@ -5,9 +5,9 @@ export class About extends Component {
     return (
       <div className='App-about'>
         <div id='p1'>
-        <img src="images/me.jpg" style={{width: '30%', padding:'2%'}} alt="Profile"/>
+        <img src="images/me.jpg" style={{height: '50%', width: '30%', padding:'2%'}} alt="Profile"/>
         <p id='p1-text'>
-        I am a Software Engineer based in Chicago, IL. I graduated from Middle Tennessee State University with a B.S. in Aerospace Administration. From there my career started with working in airport operations at Greenville-Spartanburg International Airport and then Chicago-Midway International Airport but I always had an itch to learn how to code and regretted not learning how to while in college.
+      Hello! My name is Todd Ivey and I am a Software Engineer based in Chicago, IL. I graduated from Middle Tennessee State University with a B.S. in Aerospace Administration. From there my career started with working in airport operations at Greenville-Spartanburg International Airport and then Chicago-Midway International Airport but I always had an itch to learn how to code and regretted not learning how to while in college.
         </p>
         <div id='p_filler'/>
         </div>

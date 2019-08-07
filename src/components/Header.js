@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
+
 
 class Header extends Component {
   render() {
@@ -9,11 +10,12 @@ class Header extends Component {
           <h1 className='App-header'>Welcome</h1>
         );
       }
-    path = (path.slice(1))
-    path = path.charAt(0).toUpperCase() + path.slice(1)
+    path =(path.charAt(1).toUpperCase() + path.slice(2))
       return (
         <h1 className='App-header'>
+          <Link id="home" href to="/">
             <img src='/logo.png' style={{width: '60px', height: '50px' }} alt="Header IMG" />
+          </Link>
           {path}
         </h1>
       )

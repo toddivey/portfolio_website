@@ -18,7 +18,7 @@
   background-color: #282c34;
   display: flex;
   height: 60px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);

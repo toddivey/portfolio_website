@@ -7,6 +7,10 @@ export class Home extends Component {
       <div>
       <Link id="about" href to="/about">
         <img src='/logo.png' alt="my logo" />
+
+        <div id='enter-btn'>
+          Enter
+        </div>
       </Link>
       </div>
     )

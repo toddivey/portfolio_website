@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { stack as Menu } from 'react-burger-menu'
+import { pushRotate as Menu } from 'react-burger-menu'
 
-export class Navbar extends Component {
-  showSettings (event) {
-    event.preventDefault();
-  }
-  render() {
+export default props => {
+// export class Navbar extends Component {
+//   showSettings (event) {
+//     event.preventDefault();
+//   }
+  // render() {
     return (
-      <Menu>
+      <Menu {...props}>
       <Link id="home" className="menu-item" href to="/">Home</Link>
       <Link id="resume" className="menu-item" href to="/resume">Resume</Link>
       <Link id="projects" className="menu-item" href to="/projects">Projects</Link>
@@ -16,7 +17,7 @@ export class Navbar extends Component {
       <Link id="contact" className="menu-item" href to="/contact">Contact</Link>
     </Menu>
     )
-  }
+  //}
 }
 
-export default Navbar
+//export default Navbar

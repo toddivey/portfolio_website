@@ -15,8 +15,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Navbar pageWrapId={"page-wrap"} outerContainerId={"App"}>Menu</Navbar>
         <Header />
-        <Navbar/>
+        <div id="page-wrap">
         <div className="App-body">
           <Switch>
             <Route path='/resume' component={Resume} />
@@ -26,6 +27,7 @@ function App() {
             <Route path='/' component={Home}/>
           </Switch>
         </div>
+      </div>
       </div>
     </Router>
   );

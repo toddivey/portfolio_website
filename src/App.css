@@ -69,8 +69,10 @@
   padding: 5%;
 }
 
-#enter-btn {
-  align-items: center
+#enter-btn{
+  align-items: center;
+  font-size: 2em;
+  text-decoration: none;
 }
 
 .App-link {

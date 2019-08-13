@@ -25,6 +25,7 @@ function App() {
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact} />
             <Route path='/' component={Home}/>
+            <Route path="*" component={ErrorNotFound} />
           </Switch>
         </div>
       </div>

@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Resume from './components/Resume'
+import ErrorNotFound from './components/ErrorNotFound'
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 

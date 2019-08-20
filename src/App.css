@@ -1,5 +1,6 @@
-.App {
+#App {
   text-align: center;
+  background-color: #282c34;
 }
 
 
@@ -39,10 +40,6 @@
   justify-content: right;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-#menu-find {
-  font-size: 100px;
 }
 
 #first-block {

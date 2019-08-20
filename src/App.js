@@ -15,8 +15,8 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
-        <Navbar pageWrapId={"page-wrap"} outerContainerId={"App"}/>
+      <div id="App">
+        <Navbar pageWrapId={"page-wrap"} outerContainerId={"App"}>Menu</Navbar>
         <Header />
         <div id="page-wrap">
           <div className="App-body">

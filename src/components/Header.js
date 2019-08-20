@@ -4,6 +4,7 @@ import { withRouter, Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
+    console.log(this.props)
     let path = this.props.location.pathname
       if (path === '/'){
         return (

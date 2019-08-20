@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { pushRotate as Menu } from 'react-burger-menu'
 
@@ -9,6 +9,7 @@ export default props => {
 //   }
   // render() {
     return (
+      <div>
       <Menu {...props}>
       <Link id="home" className="menu-item" href to="/">Home</Link>
       <Link id="resume" className="menu-item" href to="/resume">Resume</Link>
@@ -16,6 +17,7 @@ export default props => {
       <Link id="about" className="menu-item" href to="/about">About</Link>
       <Link id="contact" className="menu-item" href to="/contact">Contact</Link>
     </Menu>
+    </div>
     )
   //}
 }

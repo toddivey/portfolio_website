@@ -16,20 +16,20 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar pageWrapId={"page-wrap"} outerContainerId={"App"}>Menu</Navbar>
+        <Navbar pageWrapId={"page-wrap"} outerContainerId={"App"}/>
         <Header />
         <div id="page-wrap">
-        <div className="App-body">
-          <Switch>
-            <Route path='/resume' component={Resume} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/about' component={About}/>
-            <Route path='/contact' component={Contact} />
-            <Route path='/' component={Home}/>
-            <Route path="*" component={ErrorNotFound} />
-          </Switch>
+          <div className="App-body">
+            <Switch>
+              <Route path='/resume' component={Resume} />
+              <Route path='/projects' component={Projects} />
+              <Route path='/about' component={About}/>
+              <Route path='/contact' component={Contact} />
+              <Route path exact='/' component={Home}/>
+              <Route path='*' component={ErrorNotFound} />
+            </Switch>
+          </div>
         </div>
-      </div>
       </div>
     </Router>
   );

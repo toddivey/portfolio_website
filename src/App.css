@@ -41,6 +41,10 @@
   color: white;
 }
 
+#menu-find {
+  font-size: 100px;
+}
+
 #first-block {
   justify-items: right;
   float: right;

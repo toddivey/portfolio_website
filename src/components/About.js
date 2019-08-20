@@ -2,11 +2,6 @@ import React, { Component } from 'react'
 export class About extends Component {
 
   render() {
-    let counter = 0;
-    console.log(this)
-    function countIncrease(){
-
-    }
     return (
       <div className='App-about'>
         <div id='p1'>

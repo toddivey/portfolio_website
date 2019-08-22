@@ -3,7 +3,6 @@
   background-color: #282c34;
 }
 
-
 .App-body {
   background-color: #282c34;
   min-height: 100vh;
@@ -79,6 +78,12 @@
 .App-link {
   color: #61dafb;
 }
+.App-logo {
+  animation: App-logo-spin infinite 90s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
 
 @keyframes App-logo-spin {
   from {

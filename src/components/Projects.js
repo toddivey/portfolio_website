@@ -5,8 +5,9 @@ export class Projects extends Component {
     return (
       <div>
         <div className='App-body'>
+        <div id="spacer"/>
           <h4>
-            <div>
+            <div className='projects'>
               <div id="title">
             <a href='http://www.popnspots.com' target='_blank' rel='noopener noreferrer'>Pop N Spots </a></div>
             <div id="image">
@@ -21,7 +22,7 @@ export class Projects extends Component {
           <br />
 
           <h4>
-          <div>
+          <div className='projects'>
               <div id="title">
             <a href="https://gracehopper-abmt.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               graceHOPer
@@ -34,7 +35,7 @@ export class Projects extends Component {
             </div>
             </div>
           </h4>
-          <p> E-commerce website displaying thousands of products with filterable categories.</p>
+          <p> Mock e-commerce website displaying thousands of products with filterable categories.</p>
         </div>
       </div>
     )

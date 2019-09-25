@@ -1,28 +1,27 @@
 #App {
   text-align: center;
-  background-color: #282c34;
+  background-color: whitesmoke;
 }
 
 .App-body {
-  background-color: #282c34;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-header {
-  background-color: #282c34;
   display: flex;
   height: 60px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-about {
@@ -30,7 +29,6 @@
   /* padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%; */
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-flow: wrap;
@@ -38,7 +36,7 @@
   align-items: right;
   justify-content: right;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 #first-block {
@@ -61,6 +59,10 @@
   justify-content: left;
 }
 
+#p1-text >  {
+  color: black !important;
+}
+
 #p_filler {
   padding-right: 100px;
 }
@@ -70,6 +72,7 @@
 }
 
 #enter-btn{
+  color: #282c34;
   align-items: center;
   font-size: 2em;
   text-decoration: none;
@@ -121,7 +124,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: #282c34;
 }
 
 /*
@@ -147,7 +150,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: white;
   padding: 0.8em;
 }
 
@@ -156,7 +159,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.5em;
   padding-bottom: 2.5em;
   display: inline-flexbox;
-  color: whitesmoke;
+  color: white;
 }
 
 /* Styling of overlay */
@@ -169,11 +172,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding: 0;
 }
 
-a { color:whitesmoke } /* Globally */
+a { color:#282c34 } /* Globally */
 
 /* Each state */
 
-a:visited { text-decoration: none; color: whitesmoke; }
+/* a:visited { text-decoration: none; color: white; } */
 a:hover { text-decoration: none; color:blue; }
 a:focus { text-decoration: none; color: rgb(180, 170, 170); }
-a:hover, a:active { text-decoration: none; color:black }
+a:hover, a:active { text-decoration: none; color: orangered }

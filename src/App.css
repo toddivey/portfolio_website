@@ -1,10 +1,11 @@
 #App {
   text-align: center;
-  background-color: whitesmoke;
+  background-image: linear-gradient(to bottom right, white, #fff7f7);
+  /* background-color: whitesmoke; */
 }
 
 .App-body {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

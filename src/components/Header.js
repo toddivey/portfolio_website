@@ -12,12 +12,12 @@ class Header extends Component {
       }
     path =(path.charAt(1).toUpperCase() + path.slice(2))
       return (
-        <h1 className='App-header'>
+        <div className='App-header'>
           <Link id="home" href to="/">
             <img src='/logo.png' style={{width: '60px', height: '50px' }} alt="Header IMG" />
           </Link>
-          {path}
-        </h1>
+          <h2>{path}</h2>
+        </div>
       )
   }
 }

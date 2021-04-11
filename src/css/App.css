@@ -1,0 +1,37 @@
+#App {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, white, #fff7f7);
+  /* background-color: whitesmoke; */
+}
+
+.App-header {
+  padding: 30px 0;
+}
+
+.App-body {
+  padding: 50px 100px; 
+}
+
+.App-about {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 500px;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a { color:#282c34 } /* Globally */
+
+/* Each state */
+
+/* a:visited { text-decoration: none; color: white; } */
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color: rgb(180, 170, 170); }
+a:hover, a:active { text-decoration: none; color: orangered }
